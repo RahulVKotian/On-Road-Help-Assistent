@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            app:srcCompat="@drawable/fuel123" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dp"
+            android:layout_toRightOf="@+id/img"
+            android:text="Fuel Type="
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/name2"
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/img"
+            android:text="Quantity  ="
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/name3"
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/img"
+            android:text="Phone no="
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/name4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name3"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/img"
+            android:text="Address ="
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/name5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name4"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/img"
+            android:text="Amount ="
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/typetxt"
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="121dp"
+            android:layout_toRightOf="@+id/img"
+            android:text=" Type"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/qtytxt"
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/typetxt"
+            android:layout_marginLeft="119dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/img"
+            android:text="Fuel Quatity"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/phntxt"
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/qtytxt"
+            android:layout_marginLeft="119dp"
+            android:layout_marginTop="7dp"
+            android:layout_toRightOf="@+id/img"
+            android:text="Phone No"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/addtxt"
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/phntxt"
+            android:layout_marginLeft="119dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/img"
+            android:text="Address"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/amounttxt"
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/addtxt"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="9dp"
+            android:layout_toRightOf="@+id/img"
+            android:text="Amount"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name5"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/deletedata"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="5dp"
+                android:text="Delete"
+                android:textAllCaps="false" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            app:srcCompat="@drawable/mech"
+            android:id="@+id/img"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dp"
+            android:layout_toRightOf="@+id/img"
+            android:text="Name   ="
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/name2"
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/img"
+            android:text="Phone No="
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/name3"
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/img"
+            android:text="Charge  ="
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/name4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name3"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/img"
+            android:text="Vehile Type ="
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/name5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name4"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/img"
+            android:text="Discription ="
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nametxt"
+            android:layout_width="171dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="118dp"
+            android:layout_toRightOf="@+id/img"
+            android:text="Mechanic Name"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/phntxt"
+            android:layout_width="169dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nametxt"
+            android:layout_marginLeft="116dp"
+            android:layout_marginTop="9dp"
+            android:layout_toRightOf="@+id/img"
+            android:text="Phone Number"
+            android:textColor="#000"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/chargetxt"
+            android:layout_width="171dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/phntxt"
+            android:layout_marginLeft="116dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/img"
+            android:text="Default payment"
+            android:textColor="#000"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/typetxt"
+            android:layout_width="169dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/chargetxt"
+            android:layout_marginLeft="116dp"
+            android:layout_marginTop="7dp"
+            android:layout_toRightOf="@+id/img"
+            android:text="Type"
+            android:textColor="#000"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/distxt"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/typetxt"
+            android:layout_marginLeft="115dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/img"
+            android:text="discription"
+            android:textColor="#000"
+            android:textSize="15dp" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/distxt"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/call"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:text="Call"
+        android:textAllCaps="false"/>
+</LinearLayout>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

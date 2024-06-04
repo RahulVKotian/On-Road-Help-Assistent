@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fuelhome"
+    android:background="@drawable/fuelbck">
+
+    <Button
+        android:id="@+id/viewfuel"
+        android:layout_width="127dp"
+        android:layout_height="74dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="186dp"
+        android:text="My Orders"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/buyfuel"
+        android:layout_width="135dp"
+        android:layout_height="75dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="233dp"
+        android:layout_marginBottom="182dp"
+        android:text="Order Fuel"
+        android:textSize="16sp"
+        android:drawableTint="@color/purple"/>
+
+    <ImageView
+        android:id="@+id/launch"
+        android:layout_width="96dp"
+        android:layout_height="93dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-10dp"
+        android:layout_marginBottom="652dp"
+        app:srcCompat="@drawable/fuelloc" />
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mech"
+    android:background="@drawable/garage">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Mech">
+
+
+        <Button
+            android:id="@+id/addinfo"
+            android:layout_width="166dp"
+            android:layout_height="87dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginEnd="223dp"
+            android:layout_marginBottom="190dp"
+            android:drawableTint="@color/purple"
+            android:text="Add Mechanic Info" />
+
+        <Button
+            android:id="@+id/contactmech"
+            android:layout_width="167dp"
+            android:layout_height="71dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="244dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="203dp"
+            android:drawableTint="@color/purple"
+            android:text="Contact Mechanic" />
+
+        <ImageView
+            android:id="@+id/goget"
+            android:layout_width="220dp"
+            android:layout_height="233dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="326dp"
+            android:layout_marginBottom="653dp"
+            app:srcCompat="@drawable/carg" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
